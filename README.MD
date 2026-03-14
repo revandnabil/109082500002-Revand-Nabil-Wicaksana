@@ -1,4 +1,3 @@
-# Repository Praktikum Algoritma Pemrograman
 # Repository Praktikum Algoritma Pemrograman 2
 
 Nama : Revand Nabil  Wicaksana
