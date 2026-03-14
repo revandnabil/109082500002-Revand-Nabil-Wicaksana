@@ -4,7 +4,7 @@
 ## Unguided 
 
 ### 1. [Soal]
-#### soal1.go
+
 Telusuri program berikut dengan cara mengkompilasi dan mengeksekusi program. Silakan
 masukan data yang sesuai sebanyak yang diminta program. Perhatikan keluaran yang
 diperoleh. Coba terangkan apa sebenarnya yang dilakukan program tersebut?
@@ -80,7 +80,7 @@ program diatas bertujuan untuk menilai bahwa hasil dari zat cair itu konsisten d
 
 
 ### 3. [Soal]
-#### soal3.go
+
 PT POS membutuhkan aplikasi perhitungan biaya kirim berdasarkan berat parsel. Maka,
 buatlah program BiayaPos untuk menghitung biaya pengiriman tersebut dengan ketentuan
 sebagai berikut!
