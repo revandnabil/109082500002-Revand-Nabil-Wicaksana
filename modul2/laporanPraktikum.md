@@ -1,5 +1,5 @@
-# <h1 align="center">Laporan Praktikum Modul 2 - ... </h1>
-<p align="center">[Revand Nabil Wicaksana] - [109082500002]</p>
+<h1 align="center">Laporan Praktikum Modul 2 </h1>
+<p align="center">Revand Nabil Wicaksana - 109082500002</p>
 
 ## Unguided 
 
