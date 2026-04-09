@@ -13,6 +13,14 @@ Masukan terdiri dari empat buah bilangan asli a, b, c, dan d yang dipisahkan ole
 dengan syarat a ≥ c dan b ≥ d.
 Keluaran terdiri dari dua baris. Baris pertama adalah hasil permutasi dan kombinasi a
 terhadap c, sedangkan baris kedua adalah hasil permutasi dan kombinasi b terhadap d.
+Catatan: permutasi (P) dan kombinasi (C) dari n terhadap r (n ≥ r) dapat dihitung dengan
+menggunakan persamaan berikut!
+P(n, r) =
+n!
+(n−r)!
+, sedangkan C(n, r) =
+n!
+r!(n−r)!
 
 ```go
 package main

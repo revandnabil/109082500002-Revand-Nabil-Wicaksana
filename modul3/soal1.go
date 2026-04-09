@@ -2,27 +2,35 @@ package main
 
 import "fmt"
 
-func faktorial(n int) int {
-    hasil := 1
-    for i := 1; i <= n; i++ {
-        hasil *= i
-    }
-    return hasil
+func factorial(in int, hasil *int) {
+	*hasil = 1
+	for i := 2; i <= in; i++ {
+		*hasil *= i
+	}
 }
-
-func permutasi(n, r int) int {
-    return faktorial(n) / faktorial(n-r)
+func permutation(n int, r int, hasil *int) {
+	var nilaiN, nilaiSisa int
+	factorial(n, &nilaiN)
+	factorial(n-r, &nilaiSisa)
+	*hasil = nilaiN / nilaiSisa
 }
-
-func kombinasi(n, r int) int {
-    return faktorial(n) / (faktorial(r) * faktorial(n-r))
+func combination(n int, r int, hasil *int) {
+	var nilaiN, nilaiR, nilaiSisa int
+	factorial(n, &nilaiN)
+	factorial(r, &nilaiR)
+	factorial(n-r, &nilaiSisa)
+	*hasil = nilaiN / (nilaiR * nilaiSisa)
 }
-
 func main() {
-    var a, b, c, d int
-    fmt.Scan(&a, &b, &c, &d)
+	var x, y, m, n int
+	var perm1, komb1, perm2, komb2 int
 
-    fmt.Println(permutasi(a, c), kombinasi(a, c))
-    
-    fmt.Println(kombinasi(b, d), kombinasi(b, d))
+	fmt.Scan(&x, &y, &m, &n)
+
+	permutation(x, m, &perm1)
+	combination(x, m, &komb1)
+	permutation(y, n, &perm2)
+	combination(y, n, &komb2)
+	fmt.Println(perm1, komb1)
+	fmt.Println(perm2, komb2)
 }
