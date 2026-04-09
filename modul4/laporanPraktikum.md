@@ -51,7 +51,7 @@ func main() {
 Program ini digunakan untuk menghitung nilai permutasi dan kombinasi dari input bilangan yang diberikan. Program menerima empat angka yaitu a, b, c, dan d, lalu menghitung permutasi dan kombinasi a terhadap c serta b terhadap d. Perhitungan dilakukan menggunakan fungsi faktorial sebagai dasar rumusnya. Hasilnya ditampilkan dalam dua baris sesuai pasangan perhitungannya.
 
 ### 2. [Soal]
-2. Kompetisi pemrograman tingkat nasional berlangsung ketat. Setiap peserta diberikan 8 soal
+Kompetisi pemrograman tingkat nasional berlangsung ketat. Setiap peserta diberikan 8 soal
 yang harus dapat diselesaikan dalam waktu 5 jam saja. Peserta yang berhasil menyelesaikan
 soal paling banyak dalam waktu paling singkat adalah pemenangnya.
 Buat program gema yang mencari pemenang dari daftar peserta yang diberikan. Program

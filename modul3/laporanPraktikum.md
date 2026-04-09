@@ -56,7 +56,7 @@ func main() {
 
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/revandnabil/109082500002-Revand-Nabil-Wicaksana/modul3/output-soal1.png)
-Program ini digunakan untuk menghitung nilai permutasi dan kombinasi dari input bilangan yang diberikan. Program menerima empat angka yaitu a, b, c, dan d, lalu menghitung permutasi dan kombinasi a terhadap c serta b terhadap d. Perhitungan dilakukan menggunakan fungsi faktorial sebagai dasar rumusnya. Hasilnya ditampilkan dalam dua baris sesuai pasangan perhitungannya.
+Program ini digunakan untuk menghitung nilai permutasi dan kombinasi dari input bilangan yang diberikan. Program menerima empat angka yaitu a, b, c, dan d, lalu menghitung permutasi dan kombinasi a terhadap c serta b terhadap d. Perhitungan dilakukan menggunakan fungsi faktorial sebagai dasar rumusnya. Hasilnya ditampilkan dalam dua baris sesuai pasangan perhitungannya
 
 ### 2. [Soal]
 2. Diberikan tiga buah fungsi matematika yaitu f (x) = x'2, g (x) = x − 2 dan h (x) = x + 1. Fungsi komposisi (fogoh)(x) artinya adalah f(g(h(x))). Tuliskan f(x), g(x) dan h(x)
