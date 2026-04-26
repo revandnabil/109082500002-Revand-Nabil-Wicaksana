@@ -140,5 +140,5 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/revandnabil/109082500002-Revand-Nabil-Wicaksana/modul2/output-soal3.png)
+![Screenshot Output Unguided 1_1](https://github.com/revandnabil/109082500002-Revand-Nabil-Wicaksana/modul3/output-soal3.png)
 Program ini digunakan untuk menentukan posisi sebuah titik terhadap dua lingkaran. Setiap lingkaran memiliki titik pusat dan jari-jari, lalu dicek apakah titik berada di dalam atau di luar lingkaran menggunakan rumus jarak. Outputnya berupa keterangan apakah titik berada di dalam lingkaran 1, lingkaran 2, keduanya, atau di luar keduanya.
