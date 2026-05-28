@@ -1,18 +1,21 @@
-<h1 align="center">Laporan Praktikum Modul 10 </h1>
+<h1 align="center">Laporan Praktikum Modul 14 </h1>
 <p align="center">Revand Nabil Wicaksana - 109082500002</p>
 
 ## Unguided 
 
 ### 1. [Soal]
 
-Sebuah program digunakan untuk mendata berat anak kelinci yang akan dijual ke pasar.
-Program ini menggunakan array dengan kapasitas 1000 untuk menampung data berat anak
-kelinci yang akan dijual.
-Masukan terdiri dari sekumpulan bilangan, yang mana bilangan pertama adalah bilangan
-bulat N yang menyatakan banyaknya anak kelinci yang akan ditimbang beratnya. Selanjutnya
-N bilangan riil berikutnya adalah berat dari anak kelinci yang akan dijual.
-Keluaran terdiri dari dua buah bilangan riil yang menyatakan berat kelinci terkecil dan
-terbesar.
+Hercules, preman terkenal seantero ibukota, memiliki kerabat di banyak daerah. Tentunya
+Hercules sangat suka mengunjungi semua kerabatnya itu.
+Diberikan masukan nomor rumah dari semua kerabatnya di suatu daerah, buatlah program
+rumahkerabat yang akan menyusun nomor-nomor rumah kerabatnya secara terurut
+membesar menggunakan algoritma selection sort.
+Masukan dimulai dengan sebuah integer n (0 < n < 1000), banyaknya daerah kerabat
+Hercules tinggal. Isi n baris berikutnya selalu dimulai dengan sebuah integer m (0 < m <1000000) yang menyatakan banyaknya rumah kerabat di daerah tersebut, diikuti dengan
+rangkaian bilangan bulat positif, nomor rumah para kerabat.
+
+Keluaran terdiri dari n baris, yaitu rangkaian rumah kerabatnya terurut membesar di masing-
+masing daerah.
 
 ```go
 package main
@@ -53,7 +56,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/revandnabil/109082500002-Revand-Nabil-Wicaksana/modul10/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/revandnabil/109082500002-Revand-Nabil-Wicaksana/modul14/output-soal1.png)
 Program ini digunakan untuk menampilkan berat terkecil dan berat terbesar dari kelinci dengan menggunakan array untuk menyimpan berat kelincinya
 
 ### 2. [Soal]
@@ -123,7 +126,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/revandnabil/109082500002-Revand-Nabil-Wicaksana/modul10/output-soal2.png)
+![Screenshot Output Unguided 1_1](https://github.com/revandnabil/109082500002-Revand-Nabil-Wicaksana/modul14/output-soal2.png)
 Program ini digunakan untuk menampilkan total berat ikan yang ada didalam wadah dan menghitung rata rata berat ikan di setiap wadahnya dengan menggunakan array untuk menyimpan berat ikannya.
 ### 3. [Soal]
 
@@ -202,6 +205,6 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/revandnabil/109082500002-Revand-Nabil-Wicaksana/modul10/output-soal3.png)
+![Screenshot Output Unguided 1_1](https://github.com/revandnabil/109082500002-Revand-Nabil-Wicaksana/modul14/output-soal3.png)
 Program ini digunakan untuk menampilkan berat balita minimum, maksimum dan rerata berat balita pada sebuah posyandu, menggunakan array untuk menyimpan berat balitanya
 
